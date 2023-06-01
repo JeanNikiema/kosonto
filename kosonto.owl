@@ -1,0 +1,2052 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.kosonto.org/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.kosonto.org/"
+     versionIRI="http://www.kosonto.org/1.0.0">
+    <Prefix name="" IRI="http://purl.org/steschu/ontologies/kos.owl#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>This is the first version of KOSonto. It particularly accounts for a typing of the different kinds of referents and their relevance for the different kinds of KOSs</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AmbiguousSynonymRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AristotelianType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assymetry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atomic_OWL_ClassExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BinaryPredicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicalOrganism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CloseSynonymEntrTermRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CognitiveType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompositeTextualRepresentationRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compositional_OWL_ClassExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DefinedClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DefiniendumRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DefiniensRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DescriptionLogicsAxiom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DescriptionLogicsConstructor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EllipticSynonymEntryTermRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElucidationRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntryTermRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExactSynonymEntryTermRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExemplificationRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExplainedRepresentationalUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FictionalType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormalRepresentationalUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GenericallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenColor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenHorse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HierarchyBuildingPredicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HyponymEntryTermRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IdentifierRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InverseFunctionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irreflexivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KnowledgeOrganizationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LanguageTermRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Literal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LogicalAxiom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LogicalConstructor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LogicalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalLanguageTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalLanguageText"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWL_ClassExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWL_DatatypeProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWL_ObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWL_SubClassOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWL_and"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWL_equivalentTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWL_not"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWL_only"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWL_or"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWL_some"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Occurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OntologicalRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParticularToLiteralPredicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParticularToParticularPredicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParticularToTypePredicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Predicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PredicateQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreferredIdentifierRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreferredLabelRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimitiveClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReasoningProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reflexivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RepresentationalArtifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RepresentationalUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecificallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symmetry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TernaryOntologicalRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TernaryPredicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TextRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TextualAnnotationRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TextualDefinitionRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transitivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeByExtension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeByIntension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeToLiteralPredicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeToParticularPredicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeToTypePredicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnaryPredicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValueSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vertebrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_Class_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_Particular_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_Type_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#formalKnowledgeOrganizationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#informalKnowledgeOrganizationSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bearer_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#extends"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_domain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_extension"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_instance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_member"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_participant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_proper_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_proper_part_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_range"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inheres_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#instance_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inverse_is_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_about"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_broader_than"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_disjoint_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_narrower_than"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#member_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participant_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#proper_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#proper_part_of_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#similar_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transitive_is_broader_than"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transitive_is_narrower_than"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AlexanderTheGreat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Animal_U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bucephalus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Centaur_U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Einstein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GreenHorse_U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Horse_U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Human_U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insect_U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MythicalCreature_U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vertebrate_U"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Animal"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#instance_of"/>
+            <NamedIndividual IRI="#Animal_U"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Atomic_OWL_ClassExpression"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWL_ClassExpression"/>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_proper_part"/>
+                    <Class IRI="#DescriptionLogicsConstructor"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Compositional_OWL_ClassExpression"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWL_ClassExpression"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_proper_part"/>
+                <Class IRI="#DescriptionLogicsConstructor"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DescriptionLogicsAxiom"/>
+        <ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#LogicalAxiom"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_proper_part"/>
+                    <Class IRI="#DescriptionLogicsConstructor"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_proper_part"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#OWL_SubClassOf"/>
+                        <Class IRI="#OWL_equivalentTo"/>
+                    </ObjectUnionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_proper_part"/>
+                <ObjectUnionOf>
+                    <Class IRI="#OWL_ClassExpression"/>
+                    <Class IRI="#OWL_DatatypeProperty"/>
+                    <Class IRI="#OWL_ObjectProperty"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ExplainedRepresentationalUnit"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#RepresentationalUnit"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_proper_part"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Literal"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#bearer_of"/>
+                        <Class IRI="#CompositeTextualRepresentationRole"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FormalRepresentationalUnit"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#RepresentationalUnit"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#bearer_of"/>
+                <Class IRI="#DefiniendumRole"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_proper_part"/>
+                <Class IRI="#LogicalAxiom"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GreenHorse"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Horse"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_proper_part"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Hair"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#bearer_of"/>
+                        <Class IRI="#GreenColor"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GreenHorse"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#instance_of"/>
+            <NamedIndividual IRI="#GreenHorse_U"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Horse"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#instance_of"/>
+            <NamedIndividual IRI="#Horse_U"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Human"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#instance_of"/>
+            <NamedIndividual IRI="#Human_U"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLModel"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#formalKnowledgeOrganizationSystem"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_proper_part"/>
+                <Class IRI="#DescriptionLogicsAxiom"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_proper_part"/>
+                <ObjectUnionOf>
+                    <Class IRI="#DescriptionLogicsAxiom"/>
+                    <ObjectComplementOf>
+                        <Class IRI="#LogicalAxiom"/>
+                    </ObjectComplementOf>
+                </ObjectUnionOf>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWL_ClassExpression"/>
+        <ObjectUnionOf>
+            <Class IRI="#Atomic_OWL_ClassExpression"/>
+            <Class IRI="#Compositional_OWL_ClassExpression"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ParticularToLiteralPredicate"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BinaryPredicate"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_domain"/>
+                <Class IRI="#_Particular_"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_range"/>
+                <Class IRI="#Literal"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ParticularToParticularPredicate"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BinaryPredicate"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_domain"/>
+                <Class IRI="#_Particular_"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_range"/>
+                <Class IRI="#_Particular_"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ParticularToTypePredicate"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BinaryPredicate"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_domain"/>
+                <Class IRI="#_Particular_"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_range"/>
+                <Class IRI="#_Type_"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RepresentationalUnit"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#InformationContentEntity"/>
+            <ObjectUnionOf>
+                <ObjectIntersectionOf>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#has_proper_part"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#Literal"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="#bearer_of"/>
+                                <Class IRI="#IdentifierRole"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#has_proper_part"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#NaturalLanguageTerm"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="#bearer_of"/>
+                                <Class IRI="#PreferredLabelRole"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_proper_part"/>
+                    <Class IRI="#OWL_ClassExpression"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_proper_part"/>
+                    <Class IRI="#RepresentationalUnit"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#proper_part_of"/>
+                <Class IRI="#KnowledgeOrganizationSystem"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TernaryOntologicalRelation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OntologicalRelation"/>
+            <Class IRI="#TernaryPredicate"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TypeByIntension"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#_Type_"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_extension"/>
+                <Class IRI="#DefinedClass"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TypeToLiteralPredicate"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BinaryPredicate"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_domain"/>
+                <Class IRI="#_Type_"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_range"/>
+                <Class IRI="#Literal"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TypeToParticularPredicate"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BinaryPredicate"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_domain"/>
+                <Class IRI="#_Type_"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_range"/>
+                <Class IRI="#_Particular_"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TypeToTypePredicate"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BinaryPredicate"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_domain"/>
+                <Class IRI="#_Type_"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_range"/>
+                <Class IRI="#_Type_"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Vertebrate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#instance_of"/>
+            <NamedIndividual IRI="#Vertebrate_U"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#_Class_"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#extends"/>
+                <Class IRI="#_Type_"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_member"/>
+                <Class IRI="#_Particular_"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#_Particular_"/>
+        <ObjectUnionOf>
+            <Class IRI="#Continuant"/>
+            <Class IRI="#Occurrent"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#_Type_"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_extension"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#_Class_"/>
+                <ObjectAllValuesFrom>
+                    <ObjectProperty IRI="#has_member"/>
+                    <Class IRI="#_Particular_"/>
+                </ObjectAllValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#_Type_"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_instance"/>
+            <Class IRI="#_Particular_"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#formalKnowledgeOrganizationSystem"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KnowledgeOrganizationSystem"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_proper_part"/>
+                <Class IRI="#FormalRepresentationalUnit"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AmbiguousSynonymRole"/>
+        <Class IRI="#CloseSynonymEntrTermRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal"/>
+        <Class IRI="#BiologicalOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AristotelianType"/>
+        <Class IRI="#_Type_"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AristotelianType"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_extension"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#_Class_"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_member"/>
+                    <Class IRI="#_Particular_"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assymetry"/>
+        <Class IRI="#PredicateQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BinaryPredicate"/>
+        <Class IRI="#Predicate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiologicalObject"/>
+        <Class IRI="#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiologicalOrganism"/>
+        <Class IRI="#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CloseSynonymEntrTermRole"/>
+        <Class IRI="#EntryTermRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CognitiveType"/>
+        <Class IRI="#_Type_"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Color"/>
+        <Class IRI="#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeTextualRepresentationRole"/>
+        <Class IRI="#TextRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Continuant"/>
+        <Class IRI="#_Particular_"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DefinedClass"/>
+        <Class IRI="#_Class_"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DefiniendumRole"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DefiniensRole"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DependentContinuant"/>
+        <Class IRI="#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DescriptionLogicsAxiom"/>
+        <Class IRI="#LogicalAxiom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DescriptionLogicsConstructor"/>
+        <Class IRI="#LogicalConstructor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EllipticSynonymEntryTermRole"/>
+        <Class IRI="#EntryTermRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElucidationRole"/>
+        <Class IRI="#CompositeTextualRepresentationRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EntryTermRole"/>
+        <Class IRI="#LanguageTermRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExactSynonymEntryTermRole"/>
+        <Class IRI="#EntryTermRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExemplificationRole"/>
+        <Class IRI="#CompositeTextualRepresentationRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FictionalType"/>
+        <Class IRI="#CognitiveType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FictionalType"/>
+        <ObjectComplementOf>
+            <Class IRI="#AristotelianType"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FictionalType"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_instance"/>
+            <Class IRI="#InformationContentEntity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functionality"/>
+        <Class IRI="#PredicateQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GenericallyDependentContinuant"/>
+        <Class IRI="#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenColor"/>
+        <Class IRI="#Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenHorse"/>
+        <Class IRI="#Horse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hair"/>
+        <Class IRI="#BiologicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HierarchyBuildingPredicate"/>
+        <Class IRI="#Predicate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horse"/>
+        <Class IRI="#BiologicalOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <Class IRI="#BiologicalOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HyponymEntryTermRole"/>
+        <Class IRI="#EntryTermRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IdentifierRole"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndependentContinuant"/>
+        <Class IRI="#Continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationContentEntity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GenericallyDependentContinuant"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#is_about"/>
+                <Class abbreviatedIRI="owl:Thing"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InverseFunctionality"/>
+        <Class IRI="#PredicateQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irreflexivity"/>
+        <Class IRI="#PredicateQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KnowledgeOrganizationSystem"/>
+        <Class IRI="#RepresentationalArtifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KnowledgeOrganizationSystem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_proper_part"/>
+            <Class IRI="#HierarchyBuildingPredicate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KnowledgeOrganizationSystem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_proper_part"/>
+            <Class IRI="#Predicate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KnowledgeOrganizationSystem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_proper_part"/>
+            <Class IRI="#RepresentationalUnit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LanguageTermRole"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Literal"/>
+        <Class IRI="#GenericallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LogicalAxiom"/>
+        <Class IRI="#LogicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LogicalConstructor"/>
+        <Class IRI="#LogicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LogicalEntity"/>
+        <Class IRI="#InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalLanguageTerm"/>
+        <Class IRI="#Literal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalLanguageText"/>
+        <Class IRI="#Literal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_ClassExpression"/>
+        <Class IRI="#UnaryPredicate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_DatatypeProperty"/>
+        <Class IRI="#OntologicalRelation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_DatatypeProperty"/>
+        <Class IRI="#ParticularToLiteralPredicate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_ObjectProperty"/>
+        <Class IRI="#OntologicalRelation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_ObjectProperty"/>
+        <Class IRI="#ParticularToParticularPredicate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_SubClassOf"/>
+        <Class IRI="#DescriptionLogicsConstructor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_and"/>
+        <Class IRI="#DescriptionLogicsConstructor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_equivalentTo"/>
+        <Class IRI="#DescriptionLogicsConstructor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_not"/>
+        <Class IRI="#DescriptionLogicsConstructor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_only"/>
+        <Class IRI="#DescriptionLogicsConstructor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_or"/>
+        <Class IRI="#DescriptionLogicsConstructor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWL_some"/>
+        <Class IRI="#DescriptionLogicsConstructor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Occurrent"/>
+        <Class IRI="#_Particular_"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OntologicalRelation"/>
+        <Class IRI="#Predicate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Predicate"/>
+        <Class IRI="#RepresentationalUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PredicateQuality"/>
+        <Class IRI="#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreferredIdentifierRole"/>
+        <Class IRI="#IdentifierRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreferredLabelRole"/>
+        <Class IRI="#LanguageTermRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimitiveClass"/>
+        <Class IRI="#_Class_"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <Class IRI="#SpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReasoningProcess"/>
+        <Class IRI="#Occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reflexivity"/>
+        <Class IRI="#PredicateQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RepresentationalArtifact"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#InformationContentEntity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_proper_part"/>
+                <Class IRI="#RepresentationalUnit"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <Class IRI="#SpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecificallyDependentContinuant"/>
+        <Class IRI="#DependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symmetry"/>
+        <Class IRI="#PredicateQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TernaryPredicate"/>
+        <Class IRI="#Predicate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TextRole"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TextualAnnotationRole"/>
+        <Class IRI="#CompositeTextualRepresentationRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TextualDefinitionRole"/>
+        <Class IRI="#CompositeTextualRepresentationRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transitivity"/>
+        <Class IRI="#PredicateQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypeByExtension"/>
+        <Class IRI="#_Type_"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnaryPredicate"/>
+        <Class IRI="#Predicate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ValueSet"/>
+        <Class IRI="#KnowledgeOrganizationSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vertebrate"/>
+        <Class IRI="#BiologicalOrganism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_Class_"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_Particular_"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_Type_"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#informalKnowledgeOrganizationSystem"/>
+        <Class IRI="#KnowledgeOrganizationSystem"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BinaryPredicate"/>
+        <Class IRI="#TernaryPredicate"/>
+        <Class IRI="#UnaryPredicate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CloseSynonymEntrTermRole"/>
+        <Class IRI="#EllipticSynonymEntryTermRole"/>
+        <Class IRI="#ExactSynonymEntryTermRole"/>
+        <Class IRI="#HyponymEntryTermRole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Continuant"/>
+        <Class IRI="#Occurrent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DefinedClass"/>
+        <Class IRI="#PrimitiveClass"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DefiniendumRole"/>
+        <Class IRI="#DefiniensRole"/>
+        <Class IRI="#IdentifierRole"/>
+        <Class IRI="#LanguageTermRole"/>
+        <Class IRI="#TextRole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DependentContinuant"/>
+        <Class IRI="#IndependentContinuant"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ElucidationRole"/>
+        <Class IRI="#ExemplificationRole"/>
+        <Class IRI="#TextualAnnotationRole"/>
+        <Class IRI="#TextualDefinitionRole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GenericallyDependentContinuant"/>
+        <Class IRI="#SpecificallyDependentContinuant"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TypeByExtension"/>
+        <Class IRI="#TypeByIntension"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#_Class_"/>
+        <Class IRI="#_Particular_"/>
+        <Class IRI="#_Type_"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#_Particular_"/>
+        <NamedIndividual IRI="#AlexanderTheGreat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AristotelianType"/>
+        <NamedIndividual IRI="#Animal_U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AristotelianType"/>
+        <NamedIndividual IRI="#Bee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#_Particular_"/>
+        <NamedIndividual IRI="#Bucephalus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FictionalType"/>
+        <NamedIndividual IRI="#Centaur_U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InformationContentEntity"/>
+        <NamedIndividual IRI="#Chiron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#_Particular_"/>
+        <NamedIndividual IRI="#Einstein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#_Type_"/>
+        <NamedIndividual IRI="#GreenHorse_U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AristotelianType"/>
+        <NamedIndividual IRI="#Horse_U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AristotelianType"/>
+        <NamedIndividual IRI="#Human_U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AristotelianType"/>
+        <NamedIndividual IRI="#Insect_U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FictionalType"/>
+        <NamedIndividual IRI="#MythicalCreature_U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AristotelianType"/>
+        <NamedIndividual IRI="#Vertebrate_U"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_a"/>
+        <NamedIndividual IRI="#Animal_U"/>
+        <NamedIndividual IRI="#Animal_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_a"/>
+        <NamedIndividual IRI="#Bee"/>
+        <NamedIndividual IRI="#Insect_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#instance_of"/>
+        <NamedIndividual IRI="#Bucephalus"/>
+        <NamedIndividual IRI="#Horse_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_a"/>
+        <NamedIndividual IRI="#Centaur_U"/>
+        <NamedIndividual IRI="#MythicalCreature_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#similar_to"/>
+        <NamedIndividual IRI="#Centaur_U"/>
+        <NamedIndividual IRI="#Horse_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#similar_to"/>
+        <NamedIndividual IRI="#Centaur_U"/>
+        <NamedIndividual IRI="#Human_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#instance_of"/>
+        <NamedIndividual IRI="#Chiron"/>
+        <NamedIndividual IRI="#Centaur_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#instance_of"/>
+        <NamedIndividual IRI="#Einstein"/>
+        <NamedIndividual IRI="#Human_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_a"/>
+        <NamedIndividual IRI="#GreenHorse_U"/>
+        <NamedIndividual IRI="#Horse_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_a"/>
+        <NamedIndividual IRI="#Horse_U"/>
+        <NamedIndividual IRI="#Vertebrate_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_a"/>
+        <NamedIndividual IRI="#Human_U"/>
+        <NamedIndividual IRI="#Vertebrate_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_a"/>
+        <NamedIndividual IRI="#Insect_U"/>
+        <NamedIndividual IRI="#Animal_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_disjoint_with"/>
+        <NamedIndividual IRI="#Vertebrate_U"/>
+        <NamedIndividual IRI="#Insect_U"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_instance"/>
+        <ObjectProperty IRI="#is_broader_than"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_member"/>
+        <ObjectProperty IRI="#has_proper_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_proper_part"/>
+        <ObjectProperty IRI="#transitive_is_broader_than"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_proper_part_type"/>
+        <ObjectProperty IRI="#transitive_is_broader_than"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#instance_of"/>
+        <ObjectProperty IRI="#is_narrower_than"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inverse_is_a"/>
+        <ObjectProperty IRI="#transitive_is_broader_than"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_a"/>
+        <ObjectProperty IRI="#transitive_is_narrower_than"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#member_of"/>
+        <ObjectProperty IRI="#proper_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#proper_part_of"/>
+        <ObjectProperty IRI="#transitive_is_narrower_than"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#proper_part_of_type"/>
+        <ObjectProperty IRI="#transitive_is_narrower_than"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#transitive_is_broader_than"/>
+        <ObjectProperty IRI="#is_broader_than"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#transitive_is_narrower_than"/>
+        <ObjectProperty IRI="#is_narrower_than"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#bearer_of"/>
+        <ObjectProperty IRI="#inheres_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#extends"/>
+        <ObjectProperty IRI="#has_extension"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_domain"/>
+        <ObjectProperty IRI="#has_range"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_instance"/>
+        <ObjectProperty IRI="#instance_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_member"/>
+        <ObjectProperty IRI="#member_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_participant"/>
+        <ObjectProperty IRI="#participant_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_proper_part"/>
+        <ObjectProperty IRI="#proper_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_proper_part_type"/>
+        <ObjectProperty IRI="#proper_part_of_type"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inverse_is_a"/>
+        <ObjectProperty IRI="#is_a"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_broader_than"/>
+        <ObjectProperty IRI="#is_narrower_than"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#is_disjoint_with"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#has_proper_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#inverse_is_a"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#is_a"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#proper_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#transitive_is_broader_than"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#transitive_is_narrower_than"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bearer_of"/>
+        <Class IRI="#Continuant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#extends"/>
+        <Class IRI="#_Class_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_domain"/>
+        <Class IRI="#BinaryPredicate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_extension"/>
+        <Class IRI="#_Type_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_instance"/>
+        <ObjectUnionOf>
+            <Class IRI="#InformationContentEntity"/>
+            <Class IRI="#_Type_"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_member"/>
+        <Class IRI="#_Class_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_proper_part"/>
+        <Class IRI="#_Particular_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_proper_part_type"/>
+        <Class IRI="#_Type_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_range"/>
+        <Class IRI="#BinaryPredicate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inheres_in"/>
+        <Class IRI="#DependentContinuant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inverse_is_a"/>
+        <ObjectUnionOf>
+            <Class IRI="#InformationContentEntity"/>
+            <Class IRI="#_Type_"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_a"/>
+        <ObjectUnionOf>
+            <Class IRI="#InformationContentEntity"/>
+            <Class IRI="#_Type_"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_about"/>
+        <Class IRI="#GenericallyDependentContinuant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_broader_than"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_disjoint_with"/>
+        <Class IRI="#_Type_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_narrower_than"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#member_of"/>
+        <Class IRI="#_Particular_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participant_of"/>
+        <Class IRI="#Occurrent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#proper_part_of"/>
+        <Class IRI="#_Particular_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#proper_part_of_type"/>
+        <Class IRI="#_Type_"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bearer_of"/>
+        <Class IRI="#DependentContinuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#extends"/>
+        <Class IRI="#_Type_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_domain"/>
+        <Class IRI="#_Class_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_extension"/>
+        <Class IRI="#_Class_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_member"/>
+        <Class IRI="#_Particular_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_participant"/>
+        <Class IRI="#Occurrent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_proper_part"/>
+        <Class IRI="#_Particular_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_proper_part_type"/>
+        <Class IRI="#_Type_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_range"/>
+        <Class IRI="#_Class_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inheres_in"/>
+        <Class IRI="#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#instance_of"/>
+        <ObjectUnionOf>
+            <Class IRI="#InformationContentEntity"/>
+            <Class IRI="#_Type_"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inverse_is_a"/>
+        <ObjectUnionOf>
+            <Class IRI="#InformationContentEntity"/>
+            <Class IRI="#_Type_"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_a"/>
+        <ObjectUnionOf>
+            <Class IRI="#InformationContentEntity"/>
+            <Class IRI="#_Type_"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_broader_than"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_disjoint_with"/>
+        <Class IRI="#_Type_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_narrower_than"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#member_of"/>
+        <Class IRI="#_Class_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#proper_part_of"/>
+        <Class IRI="#_Particular_"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#proper_part_of_type"/>
+        <Class IRI="#_Type_"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#instance_of"/>
+            <ObjectProperty IRI="#is_a"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#instance_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#instance_of"/>
+            <ObjectProperty IRI="#similar_to"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#similar_to"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#is_a"/>
+            <ObjectProperty IRI="#is_disjoint_with"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#is_disjoint_with"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#is_disjoint_with"/>
+            <ObjectProperty IRI="#inverse_is_a"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#is_disjoint_with"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#similar_to"/>
+            <ObjectProperty IRI="#instance_of"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#similar_to"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AmbiguousSynonymRole</IRI>
+        <Literal>The role of a natural language expression that is close to the meaning of a preferred label in a KOS, but is also close to the meaning of another preferred label in the same KOS.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AristotelianType</IRI>
+        <Literal>The notion of Aristotelian universals has been enforced by the spirit of BFO (ontological realism).
+It precludes that universals exist that are not &quot;in&quot; their present (or past ) instances. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BinaryPredicate</IRI>
+        <Literal>expression of the Type F(a1, a2) </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CloseSynonymEntrTermRole</IRI>
+        <Literal>The role of a term that is a synonym of the preferred label in certain contexts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CognitiveType</IRI>
+        <Literal>This represents a cognitivist view of types as ideas in the mind of an intelligent being. They can exist also when instances
+ don&apos;t exist
+
+Often referred to as &quot;concept&quot;, which  is ambiguous and therefore avoided here, because it may also denote representational artefacts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CompositeTextualRepresentationRole</IRI>
+        <Literal>The role in a KOS played by any compositional textual elements (beyond labels and IDs) attached to some part of a KOS or to the KOS itself</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Continuant</IRI>
+        <Literal>corresponds to bfo:continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DefinedClass</IRI>
+        <Literal>a class that has definng axioms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DefiniendumRole</IRI>
+        <Literal>The role of a symbol being defined or formally described; functionally an atomic symbol left of a comparison operator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DefiniensRole</IRI>
+        <Literal>The role of an expression which is used in a defining or describing axiom,  functionally the expression right of a comparison operator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DependentContinuant</IRI>
+        <Literal>corresponds to &apos;dependent continuant&apos; in BFO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DescriptionLogicsAxiom</IRI>
+        <Literal>Axiomatic expression in description logics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DescriptionLogicsConstructor</IRI>
+        <Literal>fixed elements of description logics syntax, see https://www.w3.org/TR/owl2-overview/
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EllipticSynonymEntryTermRole</IRI>
+        <Literal>the role of a term, which is an Incomplete synonym, mostly in human-readable KOS, in which it is assumed that the user understands the meaning in the context of the label of its direct parent.
+
+Ex.:
+ICD-10: D10 Benign neoplasm of mouth and pharynx 
+ICD-10: D10.0 Lip </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ElucidationRole</IRI>
+        <Literal>The role of a language expression attached to a RU, explaining its meaning, which is not definitional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EntryTermRole</IRI>
+        <Literal>the role of a language term that acts a an entry term in a given KOS, which leads to a representational unit without necessarily being a synonym of the preferred label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExactSynonymEntryTermRole</IRI>
+        <Literal>The role of a term that is a perfect synonym of the preferred label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExemplificationRole</IRI>
+        <Literal>Illustration of the meaning of a RU by means of an example</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FormalRepresentationalUnit</IRI>
+        <Literal>The differentia of formal RU is that there is an axiom attached in which the RU is defined
+
+The view that the axioms is part of the RU may be controversial 
+See also remark for DefiniendumRole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GenericallyDependentContinuant</IRI>
+        <Literal>corresponds to &apos;generically dependent continuant&apos; in BFO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HierarchyBuildingPredicate</IRI>
+        <Literal>Hierarchy-building
+binary predicate 
+P(a,b) for which transitivity holds
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HyponymEntryTermRole</IRI>
+        <Literal>The role of a term that expresses a narrower meaning compared to the preferred label. 
+Common in KOSs or parts therof that lack granularity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IdentifierRole</IRI>
+        <Literal>The role of a literal in terms of identifying an entity of interest in an information system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IndependentContinuant</IRI>
+        <Literal>corresponds to &apos;independent continuant&apos; in BFO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InformationContentEntity</IRI>
+        <Literal>corresponds to information content entity of IAO
+
+http://purl.obolibrary.org/obo/IAO_0000030 
+
+Other than the IAO OWL axiomatization, but consistent with the tetual elucidtion it can be about anything, including types</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KnowledgeOrganizationSystem</IRI>
+        <Literal>sources:
+
+Marcia Lei Zeng Knowledge Organization Systems (KOS)
+January 2008 Knowledge Organization 35(2-3):160-182
+DOI:10.5771/0943-7444-2008-2-3-160
+ 
+&quot;all types of schemes for organizing information and promoting knowledge management&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LanguageTermRole</IRI>
+        <Literal>role a given entity of language is ascribed to in a knowledge organization system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Literal</IRI>
+        <Literal>see RDF schema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LogicalAxiom</IRI>
+        <Literal>Axiomatic expression in logics which can be False or True</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LogicalConstructor</IRI>
+        <Literal>fixed mathematical elements of a logical language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LogicalEntity</IRI>
+        <Literal>mathematical entities that constitute formal expressions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NaturalLanguageText</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLModel</IRI>
+        <Literal>On purpose, this is not called OWL ontology, because some people distinguishe between OWL model and ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWL_DatatypeProperty</IRI>
+        <Literal>cf. https://www.w3.org/TR/owl2-syntax/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWL_ObjectProperty</IRI>
+        <Literal>https://www.w3.org/TR/owl2-syntax/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Occurrent</IRI>
+        <Literal>corresponds to bfo:occurrent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OntologicalRelation</IRI>
+        <Literal>A formal relation in an ontology, which is used to describe the intrinsic properties of certain entities, and which are normally not reified.
+
+Example 
+part-of (a, b)
+
+Counterexample
+suffers-from(John, Headache)
+--&gt; ontologically correct
+has participant(Suffering123, John)
+has participant(Suffering123, Headache)
+
+Borderline
+causes(John, CarAccident1234)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Predicate</IRI>
+        <Literal>expression of the Type F(a1, a2, ...an) for n &gt; 0
+
+Instances of Predicates are, e.g., classes and properties in OWL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PredicateQuality</IRI>
+        <Literal>Algebraic property that characterizes n-ary predicates (n &gt; 1), e.g. reflexivity, transitivity, cf. https://www.w3.org/TR/owl2-syntax/ for OWL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PreferredIdentifierRole</IRI>
+        <Literal>In case an RU has more than one ID
+Ex.: MeSH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PreferredLabelRole</IRI>
+        <Literal>The role of a language term that acts as a preferred label in a knowledge organisation system. Preferred labels are often rather artificial and do not always occur in text outside the KOS. Their purpose is to be maximally self-explaining and unambiguous. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PrimitiveClass</IRI>
+        <Literal>a class with no axioms or only non-defining axioms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RepresentationalArtifact</IRI>
+        <Literal>Human-created artifacts using a defined structure and syntax, which contains elements that represent something in reality
+
+cf.: Gunnar O. Klein and Barry Smith. Concept Systems and Ontologies: Recommendations for Basic Terminology </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RepresentationalUnit</IRI>
+        <Literal>Symbols that are about something in reality.  
+
+Often called &quot;concept&quot;, cf.: Gunnar O. Klein and Barry Smith. Concept Systems and Ontologies: Recommendations for Basic Terminology 
+
+(&quot;concept&quot; is ambiguous and therefore avoided here, because it may also denote Cognitive representatoins or even universals)
+
+All Representational Units are part of some KOS and do not include any other representational unit
+
+Then we distingush two types
+
+- those that have minimally some ID and some preferred term
+(could be even the same string)
+
+- those that have only some class expression. This corresponds to anonymous classes, e.g. postcoordination, also used for the left hand side of a CGI
+
+
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Role</IRI>
+        <Literal>corresponds to &apos;rolet&apos; in BFO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpecificallyDependentContinuant</IRI>
+        <Literal>corresponds to &apos;specifically dependent continuant&apos; in BFO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TernaryOntologicalRelation</IRI>
+        <Literal>cf. BFO 2020 specification, 
+e.g. has-part(a, b, t)
+with t the temporal region in which parthood between a and b holds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TernaryPredicate</IRI>
+        <Literal>expression of the Type F(a1, a2, a3) </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TextualAnnotationRole</IRI>
+        <Literal>Extra information associated with any element in a KOS or the KOS itself which is not necessary for defining or explaining the meaning of a RU. E.g. author, version, comment, and other metadata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TextualDefinitionRole</IRI>
+        <Literal>Explanation of the meaning of a RU which is definitional, i.e. it provides all necessary and sufficient criteria for an instance to be recognized</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TextualDefinitionRole</IRI>
+        <Literal>The role of a language expression attached to a RU, fully defining its meaning in terms of sufficient and necessary condition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TypeByExtension</IRI>
+        <Literal>Types by extension are defined by the enumeration of individuals. without any defining characteristics. The identity of the type depends on the set of the defining members</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TypeByIntension</IRI>
+        <Literal>Types by intension are defined by a characteristic function that fully defines the set of entities by reference to other types. 
+Different from types by extension this type is defined by reference to other types and individuals.   </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ValueSet</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#_Class_</IRI>
+        <Literal>Classes are here introduced as classes of particulars. Our approach is therefore somewhat incomplete because it does not allow classes of types or classes of classes. But thus, Russel&apos;s paradox is avoided.
+
+Empty classes are allowed.
+
+We refrain from committing to the real existence of classes. As they are fully defined as sth that extends some type and has only particulars as members, it could also be seen as fully operational. 
+
+However, they must be in this ontology, because formal ontology  normally use a set-theorectic approach where classes (sets) are fundamental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#_Particular_</IRI>
+        <Literal>bfo:entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#_Type_</IRI>
+        <Literal>parallel to particulars we allow types (repeatables) as referents in the same right. 
+Due to the restrictions of the OWL language we represent types as OWL individuals and relations between types as object properties
+
+Type (also to be understood as &quot;Repeatable&quot;) is the most abstract way to refer to non-individuls, whereas the subtypes commit to several competing notions of reality
+
+We don&apos;t see the subdivisions as exhaustive. For instance, Platonic universal could be added, but this is not relevant for the domain of science.  
+
+We leave also open whether instances may beling to several subdivisions. The only mutual exclusiveness is between Type by intension and type by extensions. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#is_about</IRI>
+        <Literal>According to Barry Smith 2015 (ICBO2015):
+
+x is_about y means:
+x refers to or is cognitively directed towards y. Domain: representations; Range: portions of reality. Axiom: if x is_about y then y exists (veridicality).
+
+This must include references to non-particulars!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#is_disjoint_with</IRI>
+        <Literal>structural criterion regarding the split into two non-overlapping subgraphs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal>In BFO, the class particular is at the highest level. This has as a limitation that we can refer only to the instances of universals but not to universals themselves. </Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
